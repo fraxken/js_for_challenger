@@ -1,6 +1,6 @@
 /**
  * @class Eleve
- * @classdesc Un objet qui représente un Elève
+ * @classdesc Un objet javascript qui représente un Elève
  * 
  * @property {String} nom Nom de l'élève
  * @property {Boolean} scolariser Statut qui permet de savoir si l'élève est scolariser ou non!
@@ -30,9 +30,10 @@ class Eleve {
 /**
  * Pour cet exercice vous devez:
  * 0. Si aucun élève n'est scolariser, passer à l'étape 3 directement !
- * 1. Etablir la moyenne de classe des élèves scolariser.
+ * 1. Calculer la moyenne de classe des élèves scolariser.
  * 2. Etablir un classement des élèves scolariser (avec leur noteMoyenne).
  * 3. Etablir la liste des élèves non scolariser.
+ * 4. Afficher l'ensemble des résultats dans la console (le terminal).
  */
 
 /**
