@@ -1,5 +1,4 @@
-Pour effectuer les exercices suivants, voir:
+Ressources pouvant aider à la compréhension des exercices suivants:
 
-- Les primitives
-- Les objets
-- La coercion
+- DOC MDN (String, Array, Function).
+- http://exploringjs.com/impatient-js/toc.html
