@@ -1,2 +1,8 @@
 # training_js
-Quelques exercices JavaScript de base
+Exercices JavaScript pour débutant.
+
+## Documentation
+Ressources pouvant aider à la compréhension des exercices suivants:
+
+- DOC MDN (String, Array, Function).
+- http://exploringjs.com/impatient-js/toc.html

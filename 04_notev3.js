@@ -1,10 +1,5 @@
 /**
- * @class Eleve
- * @classdesc Un objet javascript qui représente un Elève
- * 
- * @property {String} nom Nom de l'élève
- * @property {Boolean} scolariser Statut qui permet de savoir si l'élève est scolariser ou non!
- * @property {Number} noteMoyenne La note moyenne d'un élève scolariser
+ * NE PAS TOUCHEZ LE CODE CI-DESSOUS
  */
 class Eleve {
     constructor(nom) {
@@ -34,6 +29,10 @@ class Eleve {
  * 2. Etablir un classement des élèves scolariser (avec leur noteMoyenne).
  * 3. Etablir la liste des élèves non scolariser.
  * 4. Afficher l'ensemble des résultats dans la console (le terminal).
+ * 
+ * NOTE:
+ * - Il n'est pas nécessaire de re-créer une classe ou quoi ce soi de complexe.
+ * - Si la notion "d'Objet" est encore trop complexe pour vous, passer à l'exercice suivant.
  */
 
 /**

@@ -2,6 +2,7 @@
  * Exercice:
  * 
  * Simplifier (optimiser) au mieux le code suivant pour éviter les répétitions ! (Vous faites ce que vous voulez, pas de limite de pensé !)
+ * Il est fortement conseillé de se documenter sur les Functions.
  */
 
 let moyenneA;
