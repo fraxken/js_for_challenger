@@ -6,8 +6,10 @@
  * 
  * Exemple
  * const a = true;
- * assert.equal(a, true); // Vrai
- * assert.equal(a, false); // Faux (une Erreur sera généré)
+ * assert.strictEqual(a, true); // Vrai
+ * assert.strictEqual(a, false); // Faux (une Erreur sera généré)
+ * 
+ * https://nodejs.org/api/assert.html#assert_assert_strictequal_actual_expected_message
  */
 const assert = require("assert");
 
@@ -20,23 +22,23 @@ const assert = require("assert");
 /**
  * Compléter les tests suivants (Etape 1).
  */
-assert.equal("a" === "a", /* ? */);
-assert.equal("5" === 5, /* ? */);
-assert.equal("5" == 5, /* ? */);
-assert.equal(true === false, /* ? */);
-assert.equal(true == 1, /* ? */);
-assert.equal(true + true == 2, /* ? */);
-assert.equal(false + false == 1, /* ? */);
-assert.equal("b" + "c", /* ? */);
-assert.equal(typeof "a", /* ? */);
-assert.equal(typeof 5, /* ? */);
-assert.equal(typeof true, /* ? */);
-assert.equal(typeof {}, /* ? */);
-assert.equal(typeof [], /* ? */);
-assert.equal(typeof undefined, /* ? */);
-assert.equal(typeof null, /* ? */);
-assert.equal({} instanceof Object, /* ? */);
-assert.equal({} instanceof Array, /* ? */);
+assert.strictEqual("a" === "a", /* ? */);
+assert.strictEqual("5" === 5, /* ? */);
+assert.strictEqual("5" == 5, /* ? */);
+assert.strictEqual(true === false, /* ? */);
+assert.strictEqual(true == 1, /* ? */);
+assert.strictEqual(true + true == 2, /* ? */);
+assert.strictEqual(false + false == 1, /* ? */);
+assert.strictEqual("b" + "c", /* ? */);
+assert.strictEqual(typeof "a", /* ? */);
+assert.strictEqual(typeof 5, /* ? */);
+assert.strictEqual(typeof true, /* ? */);
+assert.strictEqual(typeof {}, /* ? */);
+assert.strictEqual(typeof [], /* ? */);
+assert.strictEqual(typeof undefined, /* ? */);
+assert.strictEqual(typeof null, /* ? */);
+assert.strictEqual({} instanceof Object, /* ? */);
+assert.strictEqual({} instanceof Array, /* ? */);
 
 // Quitter le programme (retirer cet ligne pour l'étape 2).
 process.exit(0);
@@ -44,13 +46,13 @@ process.exit(0);
 /**
  * Compléter les tests suivant (Etape 2).
  */
-assert.equal(!(5 + 5 == 10), /* ? */);
-assert.equal(isNaN("hello"), /* ? */);
-assert.equal(NaN === NaN, /* ? */);
-assert.equal(Object.getPrototypeOf({}), /* ? */);
-assert.equal(Object.getPrototypeOf(Object.create(null)), /* ? */);
-assert.equal(Number("lol"), /* ? */);
-assert.equal(Boolean(1),  /* ? */);
-assert.equal(Boolean(""),  /* ? */);
-assert.equal([] + [],  /* ? */);
-assert.equal(["b"] + ["a"],  /* ? */);
+assert.strictEqual(!(5 + 5 == 10), /* ? */);
+assert.strictEqual(isNaN("hello"), /* ? */);
+assert.strictEqual(NaN === NaN, /* ? */);
+assert.strictEqual(Object.getPrototypeOf({}), /* ? */);
+assert.strictEqual(Object.getPrototypeOf(Object.create(null)), /* ? */);
+assert.strictEqual(Number("lol"), /* ? */);
+assert.strictEqual(Boolean(1),  /* ? */);
+assert.strictEqual(Boolean(""),  /* ? */);
+assert.strictEqual([] + [],  /* ? */);
+assert.strictEqual(["b"] + ["a"],  /* ? */);
