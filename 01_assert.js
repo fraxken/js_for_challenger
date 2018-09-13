@@ -46,10 +46,11 @@ process.exit(0);
 /**
  * Compléter les tests suivant (Etape 2).
  */
+const _o = {};
 assert.strictEqual(!(5 + 5 == 10), /* ? */);
 assert.strictEqual(isNaN("hello"), /* ? */);
 assert.strictEqual(NaN === NaN, /* ? */);
-assert.strictEqual(Object.getPrototypeOf({}), /* ? */);
+assert.strictEqual(Object.getPrototypeOf(Object.create(_o)), /* ? */);
 assert.strictEqual(Object.getPrototypeOf(Object.create(null)), /* ? */);
 assert.strictEqual(Number("lol"), /* ? */);
 assert.strictEqual(Boolean(1),  /* ? */);
