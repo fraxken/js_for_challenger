@@ -17,5 +17,20 @@
  * Pour cet exercice il est conseillé de se documenter sur les Objets et les Boucles
  */
 
- // Afficher les arguments de script
-console.log(process.argv);
+// Afficher les arguments de script
+let prevArg, seekForValue = false;
+const mappedArgs = new Map();
+for (const currArg of process.argv.slice(2)) {
+    if (currArg.charAt(0) === "-" && currArg.charAt(1) === "-") {
+        if (seekForValue) {
+            mappedArgs.set(prevArg, true);
+        }
+        prevArg = currArg.slice(2);
+    }
+    else {
+        mappedArgs.set(prevArg, currArg);
+    }
+    seekForValue = !seekForValue;
+}
+
+console.log(mappedArgs);
